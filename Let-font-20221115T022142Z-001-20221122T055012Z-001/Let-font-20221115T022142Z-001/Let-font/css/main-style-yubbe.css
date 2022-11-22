@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("../fonts-embed/stylesheet.css");
+.navbar{ padding: 20px 0}
+.navbar .mega-menu{ width: 800px; margin-left: -300px}
+
+@media (max-width:992px)
+{
+    .navbar .mega-menu{ width: 100%; margin-left: 0px}
+}
+
+.f-homework{font-family: 'Homework';}
+main{ min-height: 700px}
+.ss-icon a {
+    color: #fff; 
+    width: 50px ; height: 50px;  
+    text-align: center; line-height: 50px;  
+    border-radius: 50%; 
+    display: inline-block}
+
+.fb-link{ background: #1B7BEB}
+.fb-link:hover{background:rgba(4,20,142,1.00)}
+.inst-link{background: #EC105F}
+.inst-link:hover{background:rgba(163,8,64,1.00)}
+.tw-link{background:#1BD2EB}
+.tw-link:hover{background:#BD0E11}
+.google-link{ background:#E82929}
+
+.tieudetrang
+{
+    background: url("../IMAGES/Blog-title.jpg");
+    min-height: 250px;
+    background-position: center center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+aside .nav-link{ 
+    color: #666; font-size: 1.1rem;
+    border-bottom: 1px dotted #666;
+    background: url("../IMAGES/nav-link-dot.png");
+    background-repeat: no-repeat;
+    background-position: 30px center;
+    padding-left: 70px;
+    transition: all .5s
+}
+aside .nav-link:hover{
+    color: #E41D7A;
+      background-position: 25px center;
+  
+}
+#welcome 
+{
+    background-image:
+        url("../IMAGES/top-left2.png"), url("../IMAGES/right-bottom2.png");
+    background-position: left top , right bottom;
+    background-repeat: no-repeat;
+    min-height: 750px
+}    
+#welcome .wel-content{ position: relative; width: 100%; height: 100%;}
+#welcome .wel-content img{ 
+    border-radius: 50%; border: 10px solid #FFB22F; transition: all .5s}    
+#welcome .wel-content:hover >img  { filter: hue-rotate(-45deg)}
+#welcome .wel-hover{ position: absolute; left: 0; top: 0; background: rgba(241,155,157,.5); width: 100%; height: 100%;
+    display: flex; justify-content: center; align-items: center; border-radius: 50%; color: #fff; transition: all .5s; opacity: 0
+}
+#welcome .wel-content:hover >.wel-hover {  opacity: 1}
+#welcome .wel-hover h3{ font-size: 2rem; text-shadow: 1px 1px 3px #333}
+@media (max-width:1200px){
+   #welcome 
+    {
+        background-size: 30%;
+         background-position: -80px -30px , right bottom;
+    }
+  
+}
+
+#trending .nav-pills .nav-link { color:#5EB8C0; font-weight: bold;
+    background-image: url("../IMAGES/blue_180x180 1.png");
+    height: 180px; width: 180px; text-align: center; line-height: 160px}
+
+#trending .nav-pills .nav-link.active,
+#trending .nav-pills .show > .nav-link {
+    background-color:rgba(232,18,146,0.1); border-radius: 50%
+}
+#trending .nav-pills .nav-link.pink { color:#FF91AF; 
+    background-image: url("../IMAGES/pink_180x180 1.png");
+   }
+#trending .nav-pills .nav-link.yellow { color:#FFDEA6; 
+    background-image: url( "../IMAGES/sandal_180x180 1.png")
+   }
+#trending .trending-hover, #shop .trending-hover{ 
+    position: absolute; bottom: 0%; left: 2.5%; 
+    background:rgba(255,255,255,.6); width: 95%;
+    padding: 20px 0; text-align: center; 
+    box-shadow: 0 0 10px #ddd; 
+    transition: all .5s; opacity: 0
+}
+#trending .sp:hover >.trending-hover,
+#shop .sp:hover >.trending-hover
+{ 
+    opacity: 1; bottom: 20%
+}
+#trending .trending-hover i,
+#shop .trending-hover i
+{ cursor: pointer}
+#trending .trending-hover i:hover,
+#shop .trending-hover i
+{ color: #F45B9E}
+
+@media (max-width:768px){
+    #trending .nav-pills{ scroll-behavior: auto}
+}
+
+#services {
+    background:url("../IMAGES/bg-high qality.jpg") no-repeat center center;
+    min-height: 400px
+}
+#services .bg-black-50{ background-color: rgba(0,0,0,0.5); color: #ddd}
+#services img{ height: 60px; width: auto}
+@media (max-width:768px)
+{
+    #services { background-repeat: repeat-y}
+}
+
+
+#chef { background: #eee; overflow: hidden}
+#chef .left, #chef .right { position: absolute; top: -50px; width:20%}
+#chef .left{left: 0}
+#chef .right{ right: 0}
+
+

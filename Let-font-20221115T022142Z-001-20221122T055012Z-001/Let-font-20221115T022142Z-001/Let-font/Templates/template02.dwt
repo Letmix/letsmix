@@ -1,0 +1,126 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/Templates.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" href="../css/all.css">
+<link rel="stylesheet" href="../css/bootstrap.css">
+<link rel="stylesheet" href="../css/style-nav.css">
+<link rel="stylesheet" href="../css/hover.css">
+<link rel="stylesheet" href= "../css/style-me.css">
+<link rel="stylesheet" href= "../css/icofont.css">
+<link rel="stylesheet" href="../css/owl.carousel.css">	
+<link rel="stylesheet" href="../css/owl.theme.default.css">	
+<!-- InstanceBeginEditable name="head" -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- InstanceEndEditable -->
+</head>
+<body>
+<nav class="navbar">
+  <div class="container-fluid"> 
+	  <h4><a href="#" class="logo"><img src="../images/Logo%20SVG.png"></a></h4>
+    <form class="search me-auto ms-5">
+      <input type="text" placeholder="search" class="form-control" >
+      <button type="button" class="border-0 icon mt-1"><i class="fas fa-search"></i></button>
+    </form>
+    <div class="menu body-text-semi-bold">
+      <ul>
+        <li><a href="../index.html" class="active hvr-underline-from-center">Home</a> </li>
+        <li><a href="#" class="hvr-underline-from-center">Discover</a> </li>
+        <li><a href="#" class="hvr-underline-from-center">Create</a> </li>
+        <li><a href="#" class="hvr-underline-from-center">Dashboard</a> </li>
+      </ul>
+    </div>
+    <img src="../images/avata.jpg" class="avata">
+	<div class="mb-3">
+	<button type="button" class="btn btn-outline-dark me-3"><i class="fas fa-crown"></i></button>
+	<button type="button" class="btn btn-outline-dark body-text-semi-bold">Rush Mix</button>
+	  </div>
+	
+	</div>
+</nav>
+<!-- InstanceBeginEditable name="filters " -->
+<div class=" nav2">
+  <div class="dropdown" style="width: 400px">
+    <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown"> Categories </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Categorieses</a></li>
+      <li><a class="dropdown-item" href="#">Link 2</a></li>
+      <li><a class="dropdown-item" href="#">Link 3</a></li>
+    </ul>
+  </div>
+  <!--end drop1-->
+  <div class="dropdown" style="width: 230px">
+    <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown"> Typeface</button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Categorieses</a></li>
+      <li><a class="dropdown-item" href="#">Link 2</a></li>
+      <li><a class="dropdown-item" href="#">Link 3</a></li>
+    </ul>
+  </div>
+  <!--end drop2-->
+  <div class="dropdown " style="width: 230px">
+    <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown"> Style</button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Categorieses</a></li>
+      <li><a class="dropdown-item" href="#">Link 2</a></li>
+      <li><a class="dropdown-item" href="#">Link 3</a></li>
+    </ul>
+  </div>
+  <!--end drop3-->
+  <div class="dropdown" style="width:230px">
+    <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown"> Language</button>
+    <ul class="dropdown-menu ">
+      <li><a class="dropdown-item" href="#">Categorieses</a></li>
+      <li><a class="dropdown-item" href="#">Link 2</a></li>
+      <li><a class="dropdown-item" href="#">Link 3</a></li>
+    </ul>
+  </div>
+  <!--end drop4-->
+	
+	
+	
+  <div class="pt-1 border border-dark" style="width:150px"> <i class="fas fa-adjust fa-lg me-2 "></i> <i class="fas fa-circle fa-lg "></i> </div>
+  <div class="bg-dark text-light " style="width:150px">Reset all</div>
+</div>
+<script src="../JS/bootstrap.bundle.min.js"></script><!-- TemplateBeginEditable name="noi-dung" -->
+<main></main>
+<!-- TemplateEndEditable --><!-- InstanceEndEditable -->
+<footer style="background-color: rgba(181,181,181,1.00)" class="py-3">
+<div class="container-fluid">
+<div class="row">
+<div class="col-6">
+	<div class="small-text">Copyright © 2021 — 2022 Let’s mix Company. All rights reserved.</div>
+	
+</div>
+	
+<div class="col-1"></div>
+<div class="col-1 small-text">Contact Us&nbsp;<i class="fas fa-chevron-up"></i></div>	
+<div class="col-1 small-text">Language&nbsp;<i class="fas fa-chevron-up"></i></div>	
+<div class="col-3 small-text text-right">Help<span class="px-5">Terms of Service</span>Privacy policy</div>
+	
+</div>	
+	
+</div>	
+</footer>
+<!-- InstanceBeginEditable name="script " -->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+	
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		
+<!-- InstanceEndEditable -->
+	
+	<script src="../JS/jquery-3.6.0.min.js"></script>
+	<script src="../JS/bootstrap.bundle.min.js"></script>
+	<script src="../JS/owl.carousel.js"></script>
+	<script src="../JS/custom.js"></script>
+			
+
+</body>
+<!-- InstanceEnd --></html>

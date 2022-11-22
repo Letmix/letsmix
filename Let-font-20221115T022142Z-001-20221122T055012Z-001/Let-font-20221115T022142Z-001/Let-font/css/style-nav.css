@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+.logo{ color: #181818; font-size: 24px; padding-left: 0}
+nav .container-fluid 
+{ display: flex; justify-content: space-between; padding: 15px; position: relative}
+.search{  width:35%; position: relative}
+.search input{ border-radius: 10px}
+.search .icon{ position: absolute; right: 0; top: 3px; background: none}
+.avata{ width: 40px; height: 40px; border-radius: 50%; background: #ddd; border: 1px solid red ; padding: 2px; overflow: hidden;
+position: absolute; right: 220px; top: 20px}
+
+nav .menu ul
+{
+    display: flex; margin-top: 5px; padding: 0; list-style: none; margin-right: 80px
+}
+nav .menu ul a{ padding: 5px 20px; position: relative; font-size: 15px }
+.nav2{ display: flex;  padding-bottom: 20px; padding-top: 5px}
+.nav2 .dropdown { width: 100%; border: 1px solid black; padding-left: 10px ; font-size: 16px}
+.nav2 .dropdown-menu{ width: 95%; border:none; border-radius: 0; padding-left: 0; left: -40px; }
+.nav2 .dropdown .dropdown-toggle { border: none; background: white; padding: 5px}
+@media (max-width:1024px)
+{
+   
+    nav .menu{ overflow:auto; margin-left: 10px}   
+    nav .menu ul a{ padding: 5px 10px; font-weight: 600}   
+ 
+}
+@media (max-width:600px)
+{
+    .logo{  display: block}
+    .search{  width:90%; position: relative}
+    nav .container-fluid { flex-wrap: wrap}
+    nav .menu{ margin-left: -10px}
+    nav .menu ul a{ padding: 5px 15px}
+    .nav2{  overflow:scroll;  margin-top: -10px; padding-bottom: 100px; position: relative}
+    .nav2 .dropdown-menu{ position: absolute; left: 0; bottom: 0}
+    
+   
+}

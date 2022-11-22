@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{font-family: 'Lexend Deca', sans-serif;}
+
+h1{font-size: 64px;font-weight: 700;color: black;}
+h2{font-size: 48px;font-weight: 600;color: black;}
+h3{font-size: 36px;font-weight: 700;color: black;}
+h4{font-size: 32px;font-weight: 700;color: black;}
+
+.bold-subtitle{font-size: 24px;font-weight: 700;color: black;}
+.subtitle{font-size: 24px;font-weight: 500;color: black;}
+.small-title-m{font-size: 18px;font-weight: 500;color: black;}
+.body-text{font-size: 16px;font-weight: 400;color: black;}
+.body-text-semi-bold{font-size: 16px;font-weight: 600;color: black;}
+.small-text{font-size: 14px;font-weight: 400;color: black;}
+.small-text-medium{font-size: 14px;font-weight: 500;color: black;}
+.small-text-semi{font-size: 12px;font-weight: 400;color: black;}
+.small-text-semi-m{font-size: 12px;font-weight: 500;color: black;}
+.pre-text{font-size: 10px;font-weight: 400;color: black;}
+.pre-text-m{font-size: 10px;font-weight: 500;color: black;}
+.mini-text{font-size: 8px;font-weight: 400;color: black;}
+.big-text{font-size: 100px;font-weight: 700;color: black;}
+
+/*===========================================*/
+.img-100{ width: 100%; height: auto}
+.img-80{width: 80%; height: auto}
+.img-60{width: 60%; height: auto}
+.img-10{width: 10%; height: auto}
+
+/*===========================================*/
+section{margin-bottom: 50px; margin-top: 50px}
+.menu{margin: 10px 40px 10px 40px}
+.menu ul li a:hover{color: #212121}
+.box{padding:5px}
+.box-text-head{padding-bottom: 20px;border:1px solid #212121;border-radius:12px;background-color: #FFFFFF}
+.box-text-head-title{padding:0 0 5px 0 ;border-bottom: 2px solid #212121;border-radius:12px 12px 0 0;background-color: #FAB95B;}
+.box-text-head-dash{padding:0 0 40px 0 ;border: 2px solid #212121;border-radius:12px 12px 0 0;background-color: #FAB95B;margin-right: 400px;position: relative;}
+.medal-gold{color: rgba(245,208,84,1.00)}
+.medal-grey{color: rgba(155,155,155,1.00)}
+.medal-copper{color: rgba(139,93,0,1.00)}
+
+/*===========================================*/
+.text-center{text-align: center}
+.text-left{text-align: left}
+.text-right{text-align: right;}
+
+/*===========================================*/
+.icon-hover-primary:hover {color: #FAB95B}
+.icon-hover-primary:focus {color: #AD5759}
+
+hr.duong-vien{ background-color: black;margin-left:70px;margin-right: 200px;border-top: 1px solid rgba(0,0,0,0.5);}
+.vien-mini{padding-bottom: 1px;border:1px solid #212121;background-color: black;margin-left:70px;margin-right: 150px;}
+
+.mini{ border-top: 1px solid rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.5);
+  margin-top:-20px;
+  margin-left: 70px;
+  margin-right:230px;
+}
+
+.box-mini{width: 10px;}
+
+.btn-add-to-dash{
+  color: #181818;
+  background-color: #FAB95B;
+  border-color: #181818;
+}
+.btn-add-to-dash:hover {
+  color: #181818;
+  background-color: #FEF9E0;
+  border-color: #181818;}
+
+.navbar{
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100px;
+	background-color:white;
+	z-index: 9999;
+}
+main{margin-top: 150px;}
+
+
+
+
+
+
+
+
+
+
+
+

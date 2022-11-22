@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="../css/all.css">
+<link rel="stylesheet" href="../css/bootstrap.css">
+<link rel="stylesheet" href="../css/style-nav.css">
+<link rel="stylesheet" href="../css/hover.css">
+<link rel="stylesheet" href= "../css/style-me.css">
+<link rel="stylesheet" href= "../css/icofont.css">
+<link rel="stylesheet" href="../css/owl.carousel.css">	
+<link rel="stylesheet" href="../css/owl.theme.default.css">	
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+<nav class="navbar">
+  <div class="container-fluid"> 
+	  <h4><a href="#" class="logo"><img src="../images/Logo SVG.png"></a></h4>
+    <form class="search me-auto ms-5">
+      <input type="text" placeholder="search" class="form-control" >
+      <button type="button" class="border-0 icon mt-1"><i class="fas fa-search"></i></button>
+    </form>
+    <div class="menu body-text-semi-bold">
+      <ul>
+        <li><a href="../index.html" class="active hvr-underline-from-center">Home</a> </li>
+        <li><a href="#" class="hvr-underline-from-center">Discover</a> </li>
+        <li><a href="#" class="hvr-underline-from-center">Create</a> </li>
+        <li><a href="#" class="hvr-underline-from-center">Dashboard</a> </li>
+      </ul>
+    </div>
+    <img src="../images/avata.jpg" class="avata">
+	<div class="mb-3">
+	<button type="button" class="btn btn-outline-dark me-3"><i class="fas fa-crown"></i></button>
+	<button type="button" class="btn btn-outline-dark body-text-semi-bold">Rush Mix</button>
+	  </div>
+	
+	</div>
+</nav>
+<!-- TemplateBeginEditable name="filters " -->
+
+<main></main>
+<!-- TemplateEndEditable -->
+<footer style="background-color: rgba(181,181,181,1.00)" class="py-3">
+<div class="container-fluid">
+<div class="row">
+<div class="col-6">
+	<div class="small-text">Copyright © 2021 — 2022 Let’s mix Company. All rights reserved.</div>
+	
+</div>
+	
+<div class="col-1"></div>
+<div class="col-1 small-text">Contact Us&nbsp;<i class="fas fa-chevron-up"></i></div>	
+<div class="col-1 small-text">Language&nbsp;<i class="fas fa-chevron-up"></i></div>	
+<div class="col-3 small-text text-right">Help<span class="px-5">Terms of Service</span>Privacy policy</div>
+	
+</div>	
+	
+</div>	
+</footer>
+<!-- TemplateBeginEditable name="script " -->
+
+<!-- TemplateEndEditable -->
+	
+	<script src="../JS/jquery-3.6.0.min.js"></script>
+	<script src="../JS/bootstrap.bundle.min.js"></script>
+	<script src="../JS/owl.carousel.js"></script>
+	<script src="../JS/custom.js"></script>
+			
+
+</body>
+</html>
